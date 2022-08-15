@@ -2,8 +2,9 @@
 
 AutoPWN Suite is a project for scanning vulnerabilities and exploiting systems automatically.
 
-![Repo Size](https://img.shields.io/github/repo-size/GamehunterKaan/AutoPWN-Suite)
 ![GitHub top language](https://img.shields.io/github/languages/top/GamehunterKaan/AutoPWN-Suite)
+![Lines of code](https://img.shields.io/tokei/lines/github/GamehunterKaan/AutoPWN-Suite?label=total%20lines%20of%20code)
+![Repo Size](https://img.shields.io/github/repo-size/GamehunterKaan/AutoPWN-Suite)
 [![Tests](https://github.com/GamehunterKaan/AutoPWN-Suite/actions/workflows/tests.yml/badge.svg)](https://github.com/GamehunterKaan/AutoPWN-Suite/actions/workflows/tests.yml)
 ![GitHub issues](https://img.shields.io/github/issues-raw/GamehunterKaan/AutoPWN-Suite)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/GamehunterKaan/AutoPWN-Suite)
@@ -60,14 +61,19 @@ git clone https://github.com/GamehunterKaan/AutoPWN-Suite.git
 cd AutoPWN-Suite
 sudo pip install -r requirements.txt
 ```
+
 OR
 
 You can download debian (deb) package from [releases.](https://github.com/GamehunterKaan/AutoPWN-Suite/releases)
 
 ```
 sudo pip install requests rich python-nmap bs4 distro
-sudo apt-get install ./autopwn-suite_2.1.1.deb
+sudo apt-get install ./autopwn-suite_2.1.2.deb
 ```
+
+OR
+
+If you are on Arch Linux based system you can install `python-autopwn-suite` package using AUR helper of your choice.
 
 OR
 
@@ -169,8 +175,7 @@ scanner.save_to_file("autopwn.json")
 
 Do you have a cool feature idea? [Create a feature request!](https://github.com/GamehunterKaan/AutoPWN-Suite/issues/new?assignees=&labels=&template=feature_request.md&title=)
 
-- [x] 22 Completed.
-- [ ] Arch Linux package for Arch based systems like BlackArch and ArchAttack.
+- [x] 23 Completed.
 - [ ] Function to brute force common services like `ssh`, `vnc`, `ftp`.
 - [ ] GUI interface.
 - [ ] Daemon mode.
