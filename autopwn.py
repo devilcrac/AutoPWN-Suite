@@ -69,7 +69,7 @@ def StartScanning(
 
 
 def main() -> None:
-    __author__ = "GamehunterKaan"
+    __author__ = "MR.Blue"
     __version__ = "2.1.5"
 
     args = cli()
